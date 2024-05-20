@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5 ease;
+    padding-bottom: 60px;
+}
+
+header{
+background-color: #fff;
+color: #333;
+padding: 20px;
+text-align: center;
+}
+nav{
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.button{
+    background-color: #04AA6D;
+    border: none;
+    color:#fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.post{
+    margin-bottom: 30px;
+}
+.post h2{
+    color: #333;
+}
+
+.post p{
+    color: #666;
+}
+
+.post img{
+    max-width: 50%;
+    height: auto;
+    margin-bottom:10px;
+
+}
+
+footer{
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.top.btn {
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display:block;
+}
+
+
+/* dark mode */
+
+.dark-mode body{
+    background-color: #ddd;
+    color: #222;
+}
+
+.dark-mode header{
+    background-color: #555;
+    color: #ddd;
+}
+
+.dark-mode nav{
+    background-color: #444;
+}
+
+.dark-mode footer{
+    background-color: #222;
+    color: #ddd;
+}
